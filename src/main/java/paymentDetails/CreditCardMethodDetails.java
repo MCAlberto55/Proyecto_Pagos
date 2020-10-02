@@ -1,9 +1,9 @@
 package paymentDetails;
 
 public interface CreditCardMethodDetails {
-    long getCreditCardNumber();
+    String getCreditCardNumber();
     String getCreditCardOwnerName();
     int getCreditCardExpirationMonth();
     int getCreditCardExpirationYear();
-    int getCreditCardCVC();
+    String getCreditCardCVC();
 }
